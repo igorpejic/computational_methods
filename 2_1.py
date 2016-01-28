@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import scipy.integrate as sci
 
 
-def f(x, y):
+def f(y, x):
     return np.cos(x)/(y*y + x*x)
 
 x = np.linspace(0, 10, 25)
